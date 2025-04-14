@@ -1,4 +1,4 @@
-# MLP classifier for digit recognition with Mnist Dataset
+# MLP classifier for digit recognition On Mnist Dataset
 This project is implementation of some multi layer perceptron(MLP) neural network consisting of 3 layers fully connected neurons with different activation functions and optimizers(solvers) that are implemented in two different libraries of **Scikit Learn** and **TensorFlow**.\
 **Solvers** = SGD, Adam, MSprop, AdamW, Adadelta, Adagrad, Adamax, Adafactor, Nadamو Ftrl\
 **Activations** = relu, selu, elu, tanh\
