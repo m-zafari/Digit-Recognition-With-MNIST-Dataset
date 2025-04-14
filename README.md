@@ -1,7 +1,7 @@
 # MLP classifier for digit recognition with Mnist Dataset
-This project is implementation of some multi layer perceptron(MLP) neural network consisting of 3 layers fully connected neurons with different activation functions and optimizers(solvers).\ 
+This project is implementation of some multi layer perceptron(MLP) neural network consisting of 3 layers fully connected neurons with different activation functions and optimizers(solvers).\
 Solvers = SGD, Adam, MSprop, AdamW, Adadelta, Adagrad, Adamax, Adafactor, Nadamو Ftrl\
-activations = relu, selu, elu, tanh\
+Activations = relu, selu, elu, tanh\
 These networks are trained by MNIST Dataset that contains a training set of 60,000 examples, and a test set of 10,000 examples of handwritten digits. 
 The tensorflw_HRN.ipynb file is similar to sklrn_HRN.ipynb, so the following text briefly describes the working method of the code written in the sklearn library, and tensorflow is similar, except that tensorflow uses parallel processing.\
 First, we import the required libraries:
