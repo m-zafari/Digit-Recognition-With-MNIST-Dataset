@@ -2,7 +2,7 @@
 This project is implementation of some multi layer perceptron(MLP) neural network consisting of 3 layers fully connected neurons with different activation functions and optimizers(solvers). 
 These networks are trained by MNIST Dataset that contains a training set of 60,000 examples, and a test set of 10,000 examples of handwritten digits. 
 The tensorflw_HRN.ipynb file is similar to sklrn_HRN.ipynb, so the following text briefly describes the working method of the code written in the sklearn library, and tensorflow is similar, except that tensorflow uses parallel processing.\
-First, we import the **required libraries:
+First, we import the required libraries:
 1. **Matplotlib.pylot** for plotting graphs
 2. **Sklearn.preprocessing** for normalizing data (between 0 and 1)
 3. **fetch_openml** for importing the dataset into the written program
