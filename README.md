@@ -8,7 +8,7 @@ The tensorflw_HRN.ipynb file is similar to sklrn_HRN.ipynb, so the following tex
 3. **fetch_openml** for importing the dataset into the written program
 4. **sklearn.neural_network.MLPclassifier** for using the structural capabilities of mpl and defining it
 5. **numpy** for calculations during network training and...\
-We import the **mnist728** dataset, which contains 70,000 single-digit images, 10,000 of which are used for testing and the remaining 60,000 for training the network, each image containing 28x28 pixels.
+We import the **mnist728 dataset**, which contains 70,000 single-digit images, 10,000 of which are used for testing and the remaining 60,000 for training the network, each image containing 28x28 pixels.
 After normalizing the input data of this dataset, then divide it into the two categories mentioned above.\
 In this project two activations and solvers arrays are used to train all possible networks in order to be able to compare them.\
 This network consists of 10 inputs and 2 hidden (inner) layers, which have 20 and 50 neurons respectively, and an output layer with 10 external classes.\
